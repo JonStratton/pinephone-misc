@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+udisksctl unlock -b /dev/mmcblk0p1
+udisksctl mount -b /dev/dm-1
