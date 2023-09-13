@@ -36,7 +36,8 @@ Name=Pinephone Misc Commands
 Comment=Pinephone Misc Commands
 Exec=/usr/local/bin/pinephone_misc.py
 Terminal=false
-Categories=Tags;Describing;Application" > /usr/share/applications/pinephone_misc.desktop )'"""
+Categories=Tags;Describing;Application
+X-Purism-FormFactor=Mobile;" > /usr/share/applications/pinephone_misc.desktop )'"""
    subprocess.call( mkdesktop, shell=True, stdout=None, stderr=None )
 
    # Build Sudo File

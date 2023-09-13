@@ -36,7 +36,8 @@ Name=Tor(ish) Browser
 Comment=Tor(ish) Browser
 Exec=/usr/local/bin/torish-browser.sh
 Terminal=false
-Categories=Tags;Describing;Application" > /usr/share/applications/torish-browser.desktop )'
+Categories=Tags;Describing;Application
+X-Purism-FormFactor=Mobile;" > /usr/share/applications/torish-browser.desktop )'
 }
 
 uninstall()
